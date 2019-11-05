@@ -8,6 +8,7 @@ renderContactListToDom(contacts) {
     //Create Contact List header
     listContainer.innerHTML = "<h3>Contact List</h3>"
 
+    //Iterate through each contact and put on DOM
     contacts.forEach(contact => {
         let contactElementHTML = contactElement.createContactElement(contact)
         listContainer.innerHTML += contactElementHTML

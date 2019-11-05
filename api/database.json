@@ -29,6 +29,12 @@
       "name": "Miranda Mozzarella",
       "phoneNumber": "786-954-4722",
       "address": "32 Central Park West"
+    },
+    {
+      "id": 6,
+      "name": "Joe Jello",
+      "phoneNumber": "1-800-Call-Joee",
+      "address": "Joe's Emporium 1234 Jicama Way"
     }
   ]
 }
