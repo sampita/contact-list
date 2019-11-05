@@ -1,7 +1,7 @@
 //This file manages loading and saving contacts from the API
 
 const data = {
-saveEntry(newContactObject) {
+storeEntry(newContactObject) {
     return fetch("http://localhost:8088/contacts", {
         method: "POST",
         headers: {

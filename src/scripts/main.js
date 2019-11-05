@@ -1,6 +1,6 @@
-import form from "./ContactForm"
-import list from "./ContactList"
-import data from "./ContactCollection"
+import form from "./ContactForm.js"
+import list from "./ContactList.js"
+import data from "./ContactCollection.js"
 
 //This file is where everything is executed
 
@@ -13,6 +13,6 @@ form.buildContactForm()
 //fetch call to get info from API
 data.retrieveAllContacts()
     .then(contacts => list.renderContactListToDom(contacts))
+    .then(form.saveContactButtonHandler)
 
-//build contact list
-// list.renderContactListToDom()
+
