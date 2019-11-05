@@ -1,24 +1,34 @@
 {
-  "posts": [
+  "contacts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Bob Burger",
+      "phoneNumber": "615-555-5555",
+      "address": "989 Goldenrod Way"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Sue Stromboli",
+      "phoneNumber": "615-412-3442",
+      "address": "3000 Miracle Mile, Apt C"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 3,
+      "name": "Rachel Rigatoni",
+      "phoneNumber": "615-720-0025",
+      "address": "The Hilton Hotel, 28 Commercial Circle"
+    },
+    {
+      "id": 4,
+      "name": "Peter Panini",
+      "phoneNumber": "305-989-2896",
+      "address": "9872 Lettuce Lane"
+    },
+    {
+      "id": 5,
+      "name": "Miranda Mozzarella",
+      "phoneNumber": "786-954-4722",
+      "address": "32 Central Park West"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

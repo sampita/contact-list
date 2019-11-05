@@ -1,5 +1,18 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import form from "./ContactForm"
+import list from "./ContactList"
+import data from "./ContactCollection"
 
-document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
+//This file is where everything is executed
 
-console.log(message)
+//build add new contact form
+form.buildContactForm()
+
+
+//event listener to add and save new contact to API on button click
+
+//fetch call to get info from API
+data.retrieveAllContacts()
+    .then(contacts => list.renderContactListToDom(contacts))
+
+//build contact list
+// list.renderContactListToDom()
